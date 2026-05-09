@@ -36,6 +36,8 @@ export default function Footer() {
             loop
             muted
             playsInline
+            preload="none"
+            poster="/videos/posters/Black-Hole.webp"
             className="w-full h-full object-cover opacity-60"
           >
             <source src="/videos/Black-Hole.webm" type="video/webm" />

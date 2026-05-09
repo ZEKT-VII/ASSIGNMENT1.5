@@ -49,6 +49,8 @@ export default function PlanetCarousel() {
             loop
             muted
             playsInline
+            preload="none"
+            poster={activePlanet.poster}
             className="w-full h-full object-cover"
           >
             <source src={activePlanet.video} type="video/webm" />
@@ -92,6 +94,8 @@ export default function PlanetCarousel() {
                 loop
                 muted
                 playsInline
+                preload="none"
+                poster={activePlanet.poster}
                 className={`relative z-10 w-full h-full object-cover rounded-2xl transition-all duration-700 ${
                   isTransitioning ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
                 }`}

@@ -62,6 +62,8 @@ export default function About() {
             loop
             muted
             playsInline
+            preload="none"
+            poster="/videos/posters/Space-Bg.webp"
             className="w-full h-full object-cover opacity-40"
           >
             <source src="/videos/Space-Bg.webm" type="video/webm" />

@@ -41,6 +41,7 @@ export default function HeroSection() {
           loop
           muted
           playsInline
+          poster="/videos/posters/Space-Bg.webp"
           className={`w-full h-full object-cover transition-opacity duration-[2000ms] ${
             isLoaded ? 'opacity-60' : 'opacity-0'
           }`}
@@ -65,6 +66,7 @@ export default function HeroSection() {
           loop
           muted
           playsInline
+          poster="/videos/posters/Earth.webp"
           className="w-full h-full object-cover"
         >
           <source src="/videos/Earth.webm" type="video/webm" />
