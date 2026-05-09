@@ -6,6 +6,7 @@ const navLinks = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
   { path: '/cosmic-topics', label: 'Cosmic Topics' },
+  { path: '/courses', label: 'Courses' },
   { path: '/blog', label: 'Blog' },
   { path: '/gallery', label: 'Gallery' },
   { path: '/contact', label: 'Contact' },

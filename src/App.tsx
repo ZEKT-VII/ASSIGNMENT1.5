@@ -3,6 +3,7 @@ import Layout from './components/layout/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import CosmicTopics from './pages/CosmicTopics'
+import Courses from './pages/Courses'
 import Blog from './pages/Blog'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/cosmic-topics" element={<CosmicTopics />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
