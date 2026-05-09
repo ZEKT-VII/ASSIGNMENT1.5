@@ -46,7 +46,7 @@ export default function HeroSection() {
           }`}
           onCanPlayThrough={() => setIsLoaded(true)}
         >
-          <source src="/videos/space-bg.mp4" type="video/mp4" />
+          <source src="/videos/Space-Bg.webm" type="video/webm" />
         </video>
       </div>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/videos/earth.mp4" type="video/mp4" />
+          <source src="/videos/Earth.webm" type="video/webm" />
         </video>
         <div
           className="absolute inset-0"

@@ -51,7 +51,7 @@ export default function PlanetCarousel() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src={activePlanet.video} type="video/mp4" />
+            <source src={activePlanet.video} type="video/webm" />
           </video>
         </div>
         {/* Dark overlays for readability */}
@@ -96,7 +96,7 @@ export default function PlanetCarousel() {
                   isTransitioning ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
                 }`}
               >
-                <source src={activePlanet.video} type="video/mp4" />
+                <source src={activePlanet.video} type="video/webm" />
               </video>
 
               {/* Subtle vignette overlay on the video */}

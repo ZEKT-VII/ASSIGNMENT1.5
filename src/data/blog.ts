@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     author: 'Dr. Elena Vasquez',
     date: '2026-03-15',
     readTime: '12 min read',
-    image: 'https://images.unsplash.com/photo-1614726365723-49cfae92782f?q=80&w=1200&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop',
     tags: ['JWST', 'Cosmology', 'Deep Space'],
     content: [
       'When the James Webb Space Telescope (JWST) released its first images in July 2022, the world gasped. But those breathtaking pictures were merely the beginning of a scientific revolution that continues to reshape our understanding of the cosmos.',

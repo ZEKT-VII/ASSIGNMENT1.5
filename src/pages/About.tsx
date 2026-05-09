@@ -64,7 +64,7 @@ export default function About() {
             playsInline
             className="w-full h-full object-cover opacity-40"
           >
-            <source src="/videos/space-bg.mp4" type="video/mp4" />
+            <source src="/videos/Space-Bg.webm" type="video/webm" />
           </video>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#050508] via-transparent to-[#050508] z-[1]" />

@@ -38,7 +38,7 @@ export default function Footer() {
             playsInline
             className="w-full h-full object-cover opacity-60"
           >
-            <source src="/videos/black-hole.mp4" type="video/mp4" />
+            <source src="/videos/Black-Hole.webm" type="video/webm" />
           </video>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#030305] via-transparent to-transparent" />

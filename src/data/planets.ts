@@ -21,7 +21,7 @@ export const planets: Planet[] = [
     subtitle: 'The Swift Planet',
     description: 'Mercury is the smallest planet in our solar system and closest to the Sun. It races around the Sun in just 88 Earth days, making it the fastest planet. Despite its proximity to the Sun, it is not the hottest planet — that title belongs to Venus.',
     color: '#A0917B',
-    video: '/videos/mercury.mp4',
+    video: '/videos/Mercury.webm',
     details: {
       distance: '57.9 million km from Sun',
       mass: '3.285 × 10^23 kg',
@@ -36,7 +36,7 @@ export const planets: Planet[] = [
     subtitle: 'The Hottest World',
     description: 'Venus is the second planet from the Sun and the hottest planet in our solar system, with surface temperatures reaching 462°C. Its thick atmosphere traps heat in a runaway greenhouse effect.',
     color: '#E6C288',
-    video: '/videos/venus.mp4',
+    video: '/videos/Venus.webm',
     details: {
       distance: '108.2 million km from Sun',
       mass: '4.867 × 10^24 kg',
@@ -51,7 +51,7 @@ export const planets: Planet[] = [
     subtitle: 'The Blue Marble',
     description: 'Earth is the third planet from the Sun and the only known planet to harbor life. Its surface is covered by 71% water, and its atmosphere is rich in nitrogen and oxygen, creating the perfect conditions for a vibrant biosphere.',
     color: '#4A90D9',
-    video: '/videos/earth.mp4',
+    video: '/videos/Earth.webm',
     details: {
       distance: '149.6 million km from Sun',
       mass: '5.972 × 10^24 kg',
@@ -66,7 +66,7 @@ export const planets: Planet[] = [
     subtitle: 'The Red Planet',
     description: 'Mars, the fourth planet from the Sun, has captured human imagination for centuries. Its reddish appearance comes from iron oxide on its surface. Mars hosts the tallest volcano and deepest canyon in the solar system.',
     color: '#C1440E',
-    video: '/videos/mars.mp4',
+    video: '/videos/Mars.webm',
     details: {
       distance: '227.9 million km from Sun',
       mass: '6.417 × 10^23 kg',
@@ -81,7 +81,7 @@ export const planets: Planet[] = [
     subtitle: 'The Gas Giant',
     description: 'The largest planet in our solar system, Jupiter is a gas giant with a mass more than two and a half times that of all the other planets combined. Its Great Red Spot is a storm larger than Earth that has raged for centuries.',
     color: '#C88B5C',
-    video: '/videos/jupiter.mp4',
+    video: '/videos/Jupiter.webm',
     details: {
       distance: '778.5 million km from Sun',
       mass: '1.898 × 10^27 kg',
@@ -96,7 +96,7 @@ export const planets: Planet[] = [
     subtitle: 'The Ringed Jewel',
     description: 'Famous for its spectacular ring system, Saturn is the second-largest planet. Its rings are made of billions of particles of ice and rock, ranging in size from tiny grains to house-sized boulders.',
     color: '#E8D5A3',
-    video: '/videos/saturn.mp4',
+    video: '/videos/Saturn.webm',
     details: {
       distance: '1.434 billion km from Sun',
       mass: '5.683 × 10^26 kg',
@@ -111,7 +111,7 @@ export const planets: Planet[] = [
     subtitle: 'The Ice Giant',
     description: 'Uranus is unique among planets as it rotates on its side, likely due to a massive collision in its past. This ice giant has a faint ring system and 27 known moons.',
     color: '#7DE3F4',
-    video: '/videos/uranus.mp4',
+    video: '/videos/Uranus.webm',
     details: {
       distance: '2.871 billion km from Sun',
       mass: '8.681 × 10^25 kg',
@@ -126,7 +126,7 @@ export const planets: Planet[] = [
     subtitle: 'The Windy World',
     description: 'Neptune is the eighth and farthest planet from the Sun. It has the strongest winds in the solar system, reaching speeds of 2,100 km/h. Its deep blue color comes from methane in its atmosphere.',
     color: '#3E54E8',
-    video: '/videos/neptune.mp4',
+    video: '/videos/Neptune.webm',
     details: {
       distance: '4.495 billion km from Sun',
       mass: '1.024 × 10^26 kg',
