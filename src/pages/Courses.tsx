@@ -39,6 +39,22 @@ export default function Courses() {
     window.scrollTo(0, 0)
   }, [])
 
+  const handleBuyClick = (courseTitle: string) => {
+    const email = 'inquiries@beyond-astronomy.com'
+    const subject = encodeURIComponent(`Enrollment Inquiry: ${courseTitle}`)
+    const body = encodeURIComponent(
+      `Hi Beyond Astronomy team,\n\nI'm very interested in enrolling in the "${courseTitle}" course. Could you please provide more details on how to proceed with the purchase and registration?\n\nThank you!`
+    )
+    
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`
+    
+    window.open(
+      gmailUrl,
+      'gmailPopup',
+      'width=600,height=600,status=yes,resizable=yes,scrollbars=yes'
+    )
+  }
+
   return (
     <div className="pt-20">
       <section className="relative py-20 overflow-hidden min-h-screen">
@@ -110,12 +126,12 @@ export default function Courses() {
                     ))}
                   </div>
 
-                  <a
-                    href={`mailto:inquiries@beyond-astronomy.com?subject=Enrollment Inquiry: ${course.title}`}
+                  <button
+                    onClick={() => handleBuyClick(course.title)}
                     className="mt-auto block w-full bg-blue-600 hover:bg-blue-500 text-white text-center py-3 rounded-lg font-medium transition-colors"
                   >
                     Inquire to Buy
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}
